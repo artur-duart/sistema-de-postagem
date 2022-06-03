@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#panel {
+    background-color: #FFF;
+    width: 650px;
+    height: auto;
+    padding: 10px;
+    box-shadow: #333 0px 0px 1px;
+    border-radius: 2px;
+}
+
+#panel.hover {
+    background-color: #f5f5f5
+}
+
+.title {
+    font-size: 25px;
+    color: #000;
+}
+
+.title:hover {
+    text-decoration: none
+}
+
+.desc {
+    font-size: 18px;
+    color: #696969;
+}
+
+.image {
+    width: 630px;
+    height: 400px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+textarea {
+    max-width: 100% !important;
+}
+
+.image-comment {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
